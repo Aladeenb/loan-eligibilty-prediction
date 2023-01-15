@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<title>Loan Eligibility Predictor</title>
+<head>
+</head>
+<body>
+<h1>Loan Eligibility Predictor</h1>
+<form>
+  <label for="gender">Gender:</label>
+  <select id="gender" name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select><br><br>
+
+  <label for="married">Married:</label>
+  <select id="married" name="married">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select><br><br>
+
+  <label for="dependents">Dependents:</label>
+  <input type="number" id="dependents" name="dependents" min="0" max="10"><br><br>
+
+  <label for="education">Education:</label>
+  <select id="education" name="education">
+    <option value="graduate">Graduate</option>
+    <option value="not_graduate">Not Graduate</option>
+  </select><br><br>
+
+  <label for="self_employed">Self-Employed:</label>
+  <select id="self_employed" name="self_employed">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select><br><br>
+
+  <label for="applicant_income">Applicant Income:</label>
+  <input type="number" id="applicant_income" name="applicant_income"><br><br>
+
+  <label for="coapplicant_income">Coapplicant Income:</label>
+  <input type="number" id="coapplicant_income" name="coapplicant_income"><br><br>
+
+  <label for="loan_amount">Loan Amount:</label>
+  <input type="number" id="loan_amount" name="loan_amount"><br><br>
+
+  <label for="loan_amount_term">Loan Amount Term:</label>
+  <input type="number" id="loan_amount_term" name="loan_amount_term"><br><br>
+
+  <label for="credit_history">Credit History:</label>
+  <select id="credit_history" name="credit_history">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select><br><br>
+
+  <label for="property_area">Property Area:</label>
+  <select id="property_area" name="property_area">
+    <option value="urban">Urban</option>
+    <option value="semiurban">Semi-Urban</option>
+    <option value="rural">Rural</option>
+  </select><br><br>
+
+  <label for="loan_status">Loan Status:</label>
+  <select id="loan_status" name="loan_status">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+  </select><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
